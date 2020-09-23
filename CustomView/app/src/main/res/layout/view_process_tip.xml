@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <!--process1-->
+    <LinearLayout
+        android:id="@+id/process_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/line1_1_view"
+                style="@style/sdk_process_tip_line_view_style"
+                android:layout_weight="0.8"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="1"
+                android:background="@drawable/icon_cb_defalse"
+                android:id="@+id/select_tip1_view"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_gravity="center" />
+
+            <View
+                android:id="@+id/line1_2_view"
+                style="@style/sdk_process_tip_line_view_style" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sdk_text1_view"
+            style="@style/sdk_process_tip_text_view_style" />
+    </LinearLayout>
+
+    <!--process2-->
+    <LinearLayout
+        android:id="@+id/process_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/line2_1_view"
+                style="@style/sdk_process_tip_line_view_style" />
+
+            <TextView
+                android:textColor="@color/process_step_tip"
+                android:gravity="center"
+                android:text="2"
+                android:background="@drawable/ico_cb_false"
+                android:id="@+id/select_tip2_view"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_gravity="center" />
+
+            <View
+                android:id="@+id/line2_2_view"
+                style="@style/sdk_process_tip_line_view_style" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sdk_text2_view"
+            style="@style/sdk_process_tip_text_view_style" />
+    </LinearLayout>
+
+    <!--process3-->
+    <LinearLayout
+        android:id="@+id/process_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/line3_1_view"
+                style="@style/sdk_process_tip_line_view_style" />
+
+            <TextView
+                android:textColor="@color/process_step_tip"
+
+                android:gravity="center"
+                android:text="3"
+                android:background="@drawable/ico_cb_false"
+                android:id="@+id/select_tip3_view"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_gravity="center"/>
+
+            <View
+                android:id="@+id/line3_2_view"
+                style="@style/sdk_process_tip_line_view_style" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sdk_text3_view"
+            style="@style/sdk_process_tip_text_view_style" />
+    </LinearLayout>
+
+    <!--process4-->
+    <LinearLayout
+        android:id="@+id/process_view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/line4_view"
+                style="@style/sdk_process_tip_line_view_style" />
+
+            <TextView
+                android:textColor="@color/process_step_tip"
+                android:gravity="center"
+                android:text="4"
+                android:background="@drawable/ico_cb_false"
+                android:id="@+id/select_tip4_view"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_gravity="center" />
+
+            <View
+                android:id="@+id/line4_2_view"
+                style="@style/sdk_process_tip_line_view_style"
+                android:layout_weight="0.8" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sdk_text4_view"
+            style="@style/sdk_process_tip_text_view_style" />
+    </LinearLayout>
+
+</LinearLayout>
